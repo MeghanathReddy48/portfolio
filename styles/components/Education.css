@@ -1,0 +1,43 @@
+.Education{
+    margin-top: var(--size-5xl);
+    font-size: var(--size-4xl);
+    text-align: center;
+  }
+  .Education-container{
+          display: flex;
+          justify-content: center;
+          align-items: stretch;
+          flex-wrap: wrap;
+          gap: 2rem; 
+          margin-left: 10px;
+          margin-right: 10px;
+  }
+  .Education-container .Education-box{
+    width: 21rem;
+    height: 21rem;
+    background-color:var(--clr-dark);
+    border-radius:  2rem;
+    text-align: center; 
+    border:  .3rem solid var( --clr-rose);
+    transition: .5s ease;
+    align-items: stretch;
+  } 
+  .Education-container .Education-box:hover{
+    border-color:var(--clr-slate400);
+    transform: scale(1.02);
+    color: rgb(161, 13, 154);
+    box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
+      0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-rose);
+  }
+  .Education-box h3{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+  }
+  .Education-box h4{
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .Education-box p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
